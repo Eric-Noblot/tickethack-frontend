@@ -25,12 +25,8 @@
     font-weight: bold;
 }
 
-#booking{
-    background-color: rgb(152, 24, 24);
-    display: flex;
-    height: 160px; 
-    font-weight: bold;
-    
+#bookings{
+    font-weight: bold; 
 }
 
 #links{
