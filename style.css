@@ -1,29 +1,57 @@
+*{
+    margin: 0 ;
+    padding:0;
+    box-sizing: border-box;
+}
 #header {
-    background-color: rgb(237, 17, 17);
+    background-color: rgb(252, 251, 251);
     display: flex;
     height: 60px; 
-
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #logo{
-    padding : 20px;
-    
+    color: rgb(51, 151, 101);
+    font-weight: bold;
+    font-size: 20px;
 
 }
 
 #cart{
     padding-right: 25px;
+    font-weight: bold;
 }
 
+#booking{
+    background-color: rgb(152, 24, 24);
+    display: flex;
+    height: 160px; 
+    font-weight: bold;
+    
+}
+
+#links{
+    display: flex;
+}
+
+
 #title{
-    color: rgb(12, 12, 12);
+    color: rgb(255, 255, 255);
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     height: 120px;
+    margin-bottom: 50px;
 }
+
+h1{
+margin-bottom: 5px;
+}
+
 
 
 
@@ -41,22 +69,22 @@
 
 .card-box {
     width: 250px;
-    height: 290px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: rgb(203, 203, 203);
+    background-color: rgb(250, 249, 249);
     border-radius: 20px;
 }
 
 .input_card {
     height: 35px;
-    width: 250px;
+    width: 210px;
     border-radius: 5px;
     margin-top: 3px;
     outline: none;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 #inputDate {
@@ -65,15 +93,15 @@
 
 #search_btn {
     background-color: rgb(51, 151, 101);
-    height: 50px;
-    width: 250px;
+    height: 30px;
+    width: 210px;
     border-radius: 5px;
     color: white;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 #train_img {
-    width: 150px;
+    width: 140px;
     height: 150px;
     border-bottom: 2px solid rgb(51, 151, 101);
     padding-bottom: 30px;
