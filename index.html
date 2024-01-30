@@ -12,16 +12,31 @@
        <div>Cart</div>
        <div>Bookings</div>
     </header>
-    <main>
+    <main id ="main">
+      <img src="./img/background.jpg" id="backgound_img"></img>
       <div>
         <h1>Explore the world effortlessly by train!</h1>
         <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
       </div>
-      <div>
-        <div></div>
-        <div></div>
+      <div id="cards-container">
+        <div class="card-box">
+          <div>
+            <input id ="inputDeparture" type = "text" placeholder="departure" class="input_card" ></input>
+            <input id ="inputArrival" type = "text" placeholder="Arrival"  class="input_card"></input>
+          </div>
+          <div>
+            <input type="date" id ="inputDate" class="input_card"></input>
+          </div>
+          <button id="search_btn">SEARCH</button>
+        </div>
+
+        <div class="card-box">
+          <img id="train_img" src="./img/train.png" alt="train" />
+          <p id ="p_img">It's time to book your future trip.</p>
+        </div>
       </div>
     </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
