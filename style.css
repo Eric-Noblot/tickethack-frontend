@@ -17,16 +17,20 @@
     color: rgb(51, 151, 101);
     font-weight: bold;
     font-size: 20px;
-
+    text-decoration: none;
 }
 
 #cart{
     padding-right: 25px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
 }
 
 #bookings{
     font-weight: bold; 
+    text-decoration: none;
+    color: black;
 }
 
 #links{
@@ -49,12 +53,6 @@ margin-bottom: 5px;
 }
 
 
-
-
-    
-
-
-
 #cards-container {
     width: 70%;
     display: flex;
@@ -63,20 +61,33 @@ margin-bottom: 5px;
     margin-right: auto;
 }
 
-.card-box {
-    width: 250px;
+.card-box-left {
+    width: 280px;
     height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     background-color: rgb(250, 249, 249);
-    border-radius: 20px;
+    border-radius: 10px;
+}
+
+.card-box-right {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(250, 249, 249);
+    border-radius: 10px;
+    gap: 10px;
+    overflow: scroll;
 }
 
 .input_card {
     height: 35px;
-    width: 210px;
+    width: 235px;
     border-radius: 5px;
     margin-top: 3px;
     outline: none;
@@ -90,7 +101,7 @@ margin-bottom: 5px;
 #search_btn {
     background-color: rgb(51, 151, 101);
     height: 30px;
-    width: 210px;
+    width: 230px;
     border-radius: 5px;
     color: white;
     margin-top: 80px;
@@ -113,4 +124,22 @@ margin-bottom: 5px;
     height: 100vh;
     object-fit: cover;
     z-index: -1;
+}
+
+.trip_container {
+    height: 35px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgb(192, 190, 190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.btn_book {
+    background-color: rgb(51, 151, 101);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
 }
