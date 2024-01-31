@@ -3,3 +3,47 @@
     padding:0;
     box-sizing: border-box;
 }
+
+#header {
+    background-color: rgb(252, 251, 251);
+    display: flex;
+    height: 60px; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#cart{
+    padding-right: 25px;
+    font-weight: bold;
+}
+
+#bookings{
+    font-weight: bold; 
+}
+
+
+#links{
+    display: flex;
+}
+
+
+#destination{
+
+}
+
+
+#hours{
+background-color: rgb(72, 70, 68);
+}
+
+
+#price{
+background-color: rgb(72, 70, 68);
+}
+
+
+#departure_hours{
+    background-color: rgb(72, 70, 68);
+}
