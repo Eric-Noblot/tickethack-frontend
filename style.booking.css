@@ -3,47 +3,51 @@
     padding:0;
     box-sizing: border-box;
 }
-
 #header {
-    background-color: rgb(252, 251, 251);
+    background-color: #fefefe;
     display: flex;
     height: 60px; 
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: #fefefe;
+}
+
+#box_cart{
+    color: rgb(51, 151, 101);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #cart{
-    padding-right: 25px;
-    font-weight: bold;
-}
-
-#bookings{
-    font-weight: bold; 
-}
-
-
-#links{
     display: flex;
 }
 
-
-#destination{
-
+#destinations{
+    padding-right: 25px;
+    font-weight: bold;
+    display: flex;
+    font-size: 20px;
 }
 
 
 #hours{
-background-color: rgb(72, 70, 68);
+    font-weight: bold; 
+    font-size: 20px;
 }
-
 
 #price{
-background-color: rgb(72, 70, 68);
+    display: flex;
 }
+
 
 
 #departure_hours{
-    background-color: rgb(72, 70, 68);
+    width: 900px; 
+    align-items: center;
+    height: 150px;
+    background-color: #fefefe;
+    padding : 15px;
+    border-radius: 10px;
 }
