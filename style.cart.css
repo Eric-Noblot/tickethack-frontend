@@ -25,16 +25,24 @@
     
 }
 
+#logo{
+    color: rgb(51, 151, 101);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 #cart{
     padding-right: 25px;
     font-weight: bold;
-    display: flex;
-   
+    text-decoration: none;
+    color: black;
 }
-
 
 #bookings{
     font-weight: bold; 
+    text-decoration: none;
+    color: black;
 }
 
 
