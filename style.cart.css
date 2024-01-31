@@ -3,35 +3,63 @@
     padding:0;
     box-sizing: border-box;
 }
-
-
-#box_cart {
-height: 100vh;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-color: rgb(12, 12, 12);
-display:flex;
-background-color: whitesmoke
+#header {
+    background-color: #fefefe;
+    display: flex;
+    height: 60px; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fefefe;
 }
 
-#background_card {
-    height: 100vh;
-    width: 100%;
+#tickethack{
+    color: rgb(51, 151, 101);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#links{
+    display: flex;
+    
+}
+
+#cart{
+    padding-right: 25px;
+    font-weight: bold;
+    display: flex;
+   
+}
+
+
+#bookings{
+    font-weight: bold; 
+}
+
+
+#background_cart{
+    background-color:#eff2f1;
+    display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(12, 12, 12);
-    display: flex;
-    background-color: rgb(113, 109, 120);
+    height: 100vh;
     
 }
 
 
-#style_cart {
-    background: white;
-    text-align: center;
-    width: 100%;
-    max-width: 700px;
-    padding: 40px;
+#box_cart{
+    width: 900px; 
+    height: 150px;
+    background-color: #fefefe;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+
+
+
+
