@@ -54,7 +54,6 @@ button.addEventListener("click", () => {
             })
               .then((response) => response.json())
               .then(() => {
-                console.log("test")
                 window.location.href = 'cart.html'
               });
           });

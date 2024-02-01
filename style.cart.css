@@ -52,25 +52,39 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-    display: flex;
     background-color:whitesmoke;
-
+    overflow: scroll;
 }
 
 
 #box_cart{
-    width: 900px; 
-    height: 150px;
-    background-color: #fefefe;
-    border-radius: 10px;
+    width: 700px;
+    height: 200px;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
+
 }
 
+.box_trips {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(220, 220, 220);
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+}
 
+.btn_delete {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(15, 118, 15);
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 
